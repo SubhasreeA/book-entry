@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Library Entry System</title>
+</head>
+<body>
+  <h2>Library Entry</h2>
+  <form id="entryForm">
+    <input type="text" name="username" placeholder="Enter your name" required />
+    <input type="text" name="book" placeholder="Enter book name" required />
+    <button type="submit">Submit</button>
+  </form>
+
+  <table id="entryTable" border="1" style="margin-top: 20px; display: none;">
+    <thead>
+      <tr>
+        <th>User</th>
+        <th>Book</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="library_backend.js"></script>
+</body>
+</html>
